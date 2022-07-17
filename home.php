@@ -21,7 +21,7 @@
                     ?>
                     <div class="col-lg-3">
                      <div class="card menu-item ">
-                        <img src="assets/img/<?php echo $row['img_path'] ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo $row['img_path'] ?>" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title"><?php echo $row['name'] ?></h5>
                           <p class="card-text truncate"><?php echo $row['description'] ?></p>
